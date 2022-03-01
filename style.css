@@ -43,3 +43,22 @@ img {
 h5, h1, p {
     padding-top: 10px;
 }
+
+.next {
+    width:10px;
+    height:10px;
+    border: solid 1px white;
+    border-radius: 50%;
+    float: left;
+    margin-right: 15px;
+    cursor:pointer;
+    transform: translateX(40px);
+    transition-property: all;
+    transition-delay: 0.3s; /* delay ramden xanshi izavs, duration ramdeni xani izavs */
+    transition-duration: 0.3s;
+}
+
+.next:hover {
+    background-color: aqua;
+    transform: scale(1.003);
+}
